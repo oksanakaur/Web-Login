@@ -13,7 +13,6 @@
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,7 +54,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url('a\ quiet\ place.jpg') no-repeat;
+    background: url('Game.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -71,4 +70,21 @@
 .content h2 {
     font-size: 3em;
     letter-spacing: .03em;
+}
+
+.content p {
+    margin: 10px 0 40px;
+}
+
+.content a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 40px;
+    transition: .5s;
+}
+
+.content a:hover {
+    background: #1e0b04;
 }
